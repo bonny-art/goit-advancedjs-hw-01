@@ -1,0 +1,15 @@
+:root {
+  scroll-behavior: smooth;
+
+  /* Colors */
+  --cl-black: 46, 47, 66;
+  --cl-white: 255, 255, 255;
+
+  /* Sizes */
+  --indent-col: 24px;
+  --indent-row: var(--indent-col);
+  --items: 1;
+
+  /* Transitions */
+  --fast-trns: 300ms ease;
+}

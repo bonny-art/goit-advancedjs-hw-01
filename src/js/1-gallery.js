@@ -72,7 +72,7 @@ const refs = {
 };
 
 const itemMarkup = ({ preview, original, description }) => `
-    <li class="gallery-item">
+    <li class="gallery-item card-set-item">
         <a class="gallery-link" href="${original}">
             <img
             class="gallery-image"
