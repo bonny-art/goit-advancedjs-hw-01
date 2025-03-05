@@ -5,9 +5,9 @@ body {
   min-height: 100vh;
   margin: 0;
 
-  font-family: Manrope;
-  font-size: 14px;
-  line-height: 1.71;
+  font-family: Montserrat;
+  font-size: 16px;
+  line-height: 1.5;
 
   color: rgb(var(--cl-black));
   background-color: rgb(var(--cl-white));
@@ -39,6 +39,8 @@ button {
   cursor: pointer;
   font-family: inherit;
   padding: 0;
+
+  border-color: transparent;
 }
 
 address {
@@ -77,14 +79,16 @@ img {
 /* Styles for Tablet devices */
 @media only screen and (min-width: 768px) {
   .container {
-    max-width: 704px;
+    /* max-width: 704px; */
+    max-width: 768px;
     padding: 0 32px;
   }
 }
 /* Styles for Desktop devices */
 @media only screen and (min-width: 1280px) {
   .container {
-    max-width: 1024px;
+    /* max-width: 1024px; */
+    max-width: 1280px;
     padding: 0 128px;
   }
 }

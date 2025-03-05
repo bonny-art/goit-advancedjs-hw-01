@@ -4,6 +4,7 @@
   /* Colors */
   --cl-black: 46, 47, 66;
   --cl-white: 255, 255, 255;
+  --cl-lt-gray: 245, 245, 245;
 
   /* Sizes */
   --indent-col: 24px;

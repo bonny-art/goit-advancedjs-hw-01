@@ -1,3 +1,7 @@
+.gallery-section {
+  background-color: rgb(var(--cl-lt-gray));
+}
+
 .gallery {
   display: flex;
   flex-wrap: wrap;
@@ -23,4 +27,15 @@
 
 .gallery-image {
   object-fit: cover;
+}
+
+.sl-wrapper.simple-lightbox {
+  background-color: rgb(var(--cl-black), 80%);
+}
+
+.sl-counter,
+.sl-close,
+.sl-prev,
+.sl-next {
+  color: rgb(var(--cl-white)) !important;
 }
